@@ -2,17 +2,20 @@
 .topnav {
     color: #333;
     font-family: 'Helvetica', sans-serif;
-    padding: 15px; 
+    max-width: 1280px;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     border-bottom: .5px solid #ccc;
+    padding: 30px;
+    margin: 0 auto;
 }
+
 .topnav a:hover {
     color: red;
     text-decoration: none;
 }
 .topnav a.active {
-    font-weight: bold; /* Make the active link bold */
+    font-size: 22px;
 }
 
 a:link {
@@ -35,7 +38,7 @@ a:link {
 .nav-topright a {
     text-decoration: none;
     color: #333; 
-    padding: 15px; 
+    padding: 30px; 
     font-family: 'Helvetica', sans-serif;
 }
 .nav-topright a:hover {
@@ -47,13 +50,91 @@ body {
     font-family: 'Helvetica', sans-serif;
 }
 
-.WelcomeText {
-    font-size: 18px;
+.containerImageLeft {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.containerImageRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.projectImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.WelcomeText {  
+    font-size: 16px;
     font-family: 'Helvetica', sans-serif;
-    padding: 15px; 
+    flex: 1;
+    padding: 30px; 
+    position: relative;
+}
+
+.experienceText {
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    flex: 1;
+    padding: 0px; 
+    position: relative;
 }
 
 h2 {
     font-size: 30px;
     font-family: 'Helvetica', sans-serif;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Helvetica', sans-serif;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.imageExperience {
+    margin-left: 50px;
+}
+
+.image {
+    margin-right: 50px;
+}
+
+
+.projectImagesThumbnails {
+    padding: 25px;
+}
+
+.imageExperience img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.projectImagesThumbnails img {
+    max-width: 100%; 
+    height: auto; 
 }
