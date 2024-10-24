@@ -1,4 +1,6 @@
 
+/* || TOP NAVIGATION BAR */
+
 .topnav {
     color: #333;
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -50,10 +52,14 @@ a:link {
     color: red;
 }
 
+/* || GENERAL TEXT/BACKGROUND */
+
 body {
     background-color: #FAF8F5;  
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
+
+/* || CONTENT CONTAINERS */
 
 .containerImageLeft {
     display: flex;
@@ -72,10 +78,12 @@ body {
     padding-top: 30px;
 }
 
+
 .ProjectTextContainer {
     align-items: flex-start; 
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .projectImages {
@@ -87,12 +95,24 @@ body {
     padding-top: 30px;
 }
 
+.ProjectDetailcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto; 
+  }
+
+/* || TEXT WITHIN CONTAINERS */
+
 .WelcomeText {  
     font-size: 16px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     flex: 1;
     position: relative;
-    margin-top: 3%;
+    margin: 0 auto;
+    
 }
 
 .experienceText {
@@ -120,7 +140,6 @@ h2 {
 h3 {
     font-size: 25px;
     font-family:'Arial Narrow', Arial, sans-serif;
-    font-style: ;
     margin-left: 0;
     margin-bottom: 15px;
 }
@@ -130,6 +149,8 @@ h4 {
     margin: 0;
     margin-bottom: 30px;
 }
+
+/* || IMAGES */
 
 .imageExperience {
     margin-left: 50px;
@@ -158,24 +179,22 @@ h4 {
     height: auto; 
 }
 
-.ProjectDetailcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center;
-    max-width: 1280px;
-    margin: 0 auto; 
-    
-  }
-
-  .gallery {
+.gallery {
     margin-bottom: 1.5%;
-  }
-  
-  .gallery__img {
+}
+
+.gallery__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
   }
+  
+  .ProjectImageIntro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
   
