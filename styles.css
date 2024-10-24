@@ -191,10 +191,12 @@ h4 {
   }
   
   .ProjectImageIntro {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    margin-top: 30px;
+    max-width: 1280px;
     height: auto; 
-    object-fit: cover;
+    
 }
   
