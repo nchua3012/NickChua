@@ -200,3 +200,49 @@ h4 {
     
 }
   
+
+@media (max-width: 768px) {
+    .containerImageLeft,
+    .containerImageRight,
+    .ProjectTextContainer,
+    .ProjectDetailcontainer,
+    .imageExperience,
+    .WelcomeText,
+    .experienceText,
+    .projectText,
+    .projectImages,
+    .image {
+        max-width: 100%; 
+        margin: 0 2.5%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .containerImageLeft {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 2.5% auto;
+    }
+
+@media (max-width: 768px) {
+    .containerImageRight {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 2.5% auto;
+    }
+
+@media (max-width: 768px) {
+        .ProjectImageIntro {
+            flex-direction: column; 
+            align-items: center; 
+            max-width: 100%;
+            margin: 2.5% auto;
+}
+
+@media (max-width: 768px) {
+    .projectImages {
+        flex-direction: column; 
+        align-items: center; 
+        max-width: 100%;
+        margin: 2.5% auto;
+}
