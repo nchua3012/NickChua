@@ -11,6 +11,7 @@
     <!-- Top Navigation -->
     <div class="topnav">
         <a href="index.html" class="active">Nick Chua</a>
+        <div class="hamburger" id="hamburger">&#9776;</div> 
         <nav class="nav-topright">
             <ul>
                 <li><a href="experience.html">Experience</a></li>
@@ -20,9 +21,16 @@
         </nav>
     </div>
 
-<!-- Welcome Text -->
+    <!-- Mobile Navigation Menu -->
+    <nav class="nav-menu" id="nav-menu">
+        <ul>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    
+<!-- Welcome Text -->
 <div class="containerImageLeft">
     <div class="image">
       <img src=https://placehold.co/720x720 alt="Placeholder Image" />
@@ -33,6 +41,16 @@
         <p>I also offer services in presentations, pitch documents, graphic design, photography, CAD and architectural drawings. Let's collaborate to bring your ideas to life.</p>
     </div>
   </div>
+
+<script>
+        // JavaScript for toggling the menu
+        document.getElementById('hamburger').addEventListener('click', function() {
+            const menu = document.getElementById('nav-menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+
+
 
 
 </body>
