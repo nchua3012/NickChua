@@ -12,6 +12,7 @@
         <!-- Top Navigation -->
         <div class="topnav">
             <a href="index.html">Nick Chua</a>
+            <button class="hamburger" id="hamburger">&#9776;</button>
             <nav class="nav-topright">
                 <ul>
                     <li><a href="experience.html">Experience</a></li>
@@ -20,6 +21,15 @@
                 </ul>
             </nav>
         </div>
+
+        <!-- Mobile Navigation Menu -->
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     
         <div class="containerImageLeft">
             <div class="image">
@@ -31,7 +41,13 @@
             </div>
           </div>
 
-
+<!--Toggle menu visibility -->
+<script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+const navMenu = document.getElementById('nav-menu');
+navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block'; 
+});
+</script>
 
 
 
