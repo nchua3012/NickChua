@@ -28,8 +28,18 @@ a:link {
     text-decoration: none;
   }
 
-  a:visited {
+a:visited {
     color: #333; 
+}
+
+.colored-link {
+    color:red;
+    text-decoration: underline;
+}
+
+.colored-link:hover {
+    color: red; 
+    text-decoration: underline; 
 }
 
 .nav-topright {
