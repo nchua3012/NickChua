@@ -1,5 +1,3 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nchua3012)](https://github.com/anuraghazra/github-readme-stats)
-
 # NickChua
 Portfolio Website
 Portfolio website for my arch/document creation content. 
